@@ -1,0 +1,48 @@
+version: '3.7'
+
+services:
+  backend:
+    container_name: backend
+    build:
+      context: .
+      dockerfile: DockerfileNest
+    environment:
+      - PORT=7777
+      - MONGODB_CONNECTION_STRING=mongodb://user:pass@mongo
+      - JWT_ACCESS_SECRET=YOUR_ACCESS_SECRET
+      - JWT_REFRESH_SECRET=YOUR_REFRESH_SECRET
+    volumes:
+      - ./backend:/app
+      - /app/node_modules
+    ports:
+      - 7777:7777
+      - 9229:9299
+    command: npm run start:dev
+    depends_on:
+      - mongo
+    restart: always
+  frontend:
+    container_name: frontend
+    build:
+      context: .
+      dockerfile: DockerfileNext
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    ports:
+      - 3000:3000
+    command: npm run start
+    restart: always
+  mongo:
+    container_name: mongo
+    image: mongo:latest
+    restart: always
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=user
+      - MONGO_INITDB_ROOT_PASSWORD=pass
+    volumes:
+      - ./backend/mongo_db:/data/db
+    expose:
+      - 27017:27017
+volumes:
+  mongo: {}

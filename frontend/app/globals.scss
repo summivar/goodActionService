@@ -1,0 +1,17 @@
+.body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$header-color: #163bff;
+$header-height: 10vh;
+$base-padding: $header-height;
+$base-height: 100vh - $header-height;
+
+$button-color: #ffd500;
+$button-color-hovered: rgba(215, 177, 0, 0.79);
+
+$headline-fontsize: 3rem;
+$default-fontsize: 1.3rem;
+

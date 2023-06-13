@@ -1,0 +1,9 @@
+@import '../../styles/container';
+
+.container{
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: row;
+  width: 100vw;
+  padding-top: $base-padding + 5vh;
+}

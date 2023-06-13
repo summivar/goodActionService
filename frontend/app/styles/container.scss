@@ -1,0 +1,11 @@
+@import '../globals';
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: $base-height;
+  padding-top: $base-padding;
+}

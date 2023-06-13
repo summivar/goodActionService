@@ -1,0 +1,25 @@
+.headLine {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+}
+
+.friendContext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.friendItem {
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+.icon {
+  cursor: pointer;
+
+  &:hover{
+    fill: red;
+  }
+}

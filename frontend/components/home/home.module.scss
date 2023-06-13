@@ -1,0 +1,57 @@
+@import "../../app/globals";
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: $base-height;
+  padding-top: $base-padding;
+}
+
+.buttonSignUp{
+  outline: none;
+  border: 1px solid black;
+  border-radius: 2rem;
+  background-color: $button-color;
+  height: 5rem;
+  font-size: $default-fontsize;
+  width: 100%;
+
+  &:hover {
+    background: $button-color-hovered;
+  }
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+}
+
+.link {
+  width: 50%;
+  height: 5rem;
+  margin-top: 50px;
+}
+
+.headline{
+  font-size: $headline-fontsize;
+}
+
+.headlineService{
+  font-size: $headline-fontsize;
+  margin-bottom: 50px;
+}
+
+.defaultText{
+  font-size: $default-fontsize;
+}
+
+.text {
+  text-align: center;
+}

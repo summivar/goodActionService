@@ -1,0 +1,42 @@
+.item {
+  display:flex;
+  flex-direction: row;
+}
+
+.iconMargin {
+  margin-top: 15px;
+}
+
+.icon {
+  cursor: pointer;
+
+  &:hover{
+    fill: red;
+  }
+}
+
+.text{
+  margin: 0 0 0 0;
+  padding: 5px 5px 5px 0;
+}
+
+.buttonState {
+  background: #FFFFFF;
+  border: none;
+  outline: none;
+}
+
+.inputList {
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  width: 450px;
+  font-size: 16px;
+  padding-left: 10px;
+
+  &:focus{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+  }
+}

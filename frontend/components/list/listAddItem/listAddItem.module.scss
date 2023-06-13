@@ -1,0 +1,53 @@
+@import '../../../app/globals';
+
+.context {
+  height: 250px;
+  width: 500px;
+}
+
+.item {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.itemButton {
+  outline: none;
+  border: 1px solid black;
+  border-radius: 2rem;
+  background-color: $button-color;
+  height: 5rem;
+  font-size: $default-fontsize;
+  width: 70%;
+
+  &:hover {
+    background: $button-color-hovered;
+  }
+}
+
+.itemLabel {
+  font-size: 20px;
+}
+
+.itemInput {
+  padding-top: 5px;
+  padding-bottom: 3px;
+  border: none;
+  border-bottom: 1px solid #000000;
+  outline: none;
+  font-size: 18px;
+  width: 300px;
+  text-align: center;
+
+  &:hover{
+    transition: transform 0.3s ease;
+    transform: scale(1.05);
+  }
+
+  &:focus{
+    transition: transform 0.3s ease;
+    transform: scale(1.05);
+  }
+}

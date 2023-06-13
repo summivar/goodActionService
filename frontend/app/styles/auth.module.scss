@@ -1,0 +1,73 @@
+@import "../globals";
+@import "../styles/container";
+
+.headline{
+  font-size: $headline-fontsize;
+}
+
+.formElem{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.formInput{
+  padding-top: 10px;
+  font-size:18px;
+  border: none;
+  border-bottom: 1px solid #000000;
+  outline: none;
+  width: 50%;
+
+  &:hover{
+    transition: transform 0.3s ease;
+    transform: scale(1.05);
+  }
+
+  &:focus{
+    transition: transform 0.3s ease;
+    transform: scale(1.05);
+  }
+}
+
+.formLabel{
+  font-size: 22px;
+}
+
+.formToSignIn{
+  color: black;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.buttonSignUp{
+  outline: none;
+  border: 1px solid black;
+  border-radius: 2rem;
+  background-color: $button-color;
+  height: 5rem;
+  font-size: $default-fontsize;
+  width: 80%;
+
+  &:hover {
+    background: $button-color-hovered;
+  }
+}
+
+.strongButton:hover{
+  color: red;
+}
+
+.link{
+  text-decoration: none;
+  color: #000000;
+}
+
+.error{
+  color: red;
+  margin-top: 4px;
+}

@@ -1,0 +1,40 @@
+@import '../styles/container';
+
+.item {
+  display: flex;
+  flex-direction: row;
+  font-size: 32px;
+  margin-top: 10px;
+}
+
+.iconMargin {
+  margin-left: 10px;
+}
+
+.icon {
+  cursor: pointer;
+
+  &:hover{
+    fill: red;
+  }
+}
+
+.buttonState {
+  background: #FFFFFF;
+  border: none;
+  outline: none;
+}
+
+.inputName {
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  font-size: 32px;
+  width: 250px;
+
+  &:focus{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+  }
+}
