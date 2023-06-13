@@ -1,0 +1,106 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[9].use[5]!./app/styles/auth.module.scss ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.auth_body__Ra_Qc {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.auth_body__Ra_Qc {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.auth_container__zCqZU {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 90vh;
+  padding-top: 10vh;
+}
+
+.auth_headline__JxouP {
+  font-size: 3rem;
+}
+
+.auth_formElem__G7J6R {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.auth_formInput__WkFki {
+  padding-top: 10px;
+  font-size: 18px;
+  border: none;
+  border-bottom: 1px solid #000000;
+  outline: none;
+  width: 50%;
+}
+.auth_formInput__WkFki:hover {
+  transition: transform 0.3s ease;
+  transform: scale(1.05);
+}
+.auth_formInput__WkFki:focus {
+  transition: transform 0.3s ease;
+  transform: scale(1.05);
+}
+
+.auth_formLabel__06cPc {
+  font-size: 22px;
+}
+
+.auth_formToSignIn__bPgrd {
+  color: black;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.auth_buttonSignUp__I46WG {
+  outline: none;
+  border: 1px solid black;
+  border-radius: 2rem;
+  background-color: #ffd500;
+  height: 5rem;
+  font-size: 1.3rem;
+  width: 80%;
+}
+.auth_buttonSignUp__I46WG:hover {
+  background: rgba(215, 177, 0, 0.79);
+}
+
+.auth_strongButton__6ojml:hover {
+  color: red;
+}
+
+.auth_link__XfNAC {
+  text-decoration: none;
+  color: #000000;
+}
+
+.auth_error__WGiIb {
+  color: red;
+  margin-top: 4px;
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[9].use[5]!./app/signUp/singUp.module.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.singUp_context___6WND {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+  width: 400px;
+  border: 1px solid #000000;
+  border-radius: 2rem;
+  padding-top: 40px;
+}
