@@ -8,3 +8,4 @@ backend/node_modules/
 backend/dist/
 backend/.idea/
 backend/.env
+backend/mongo_db/
