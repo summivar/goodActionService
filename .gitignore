@@ -2,7 +2,7 @@
 
 frontend/node_modules/
 frontend/.idea/
-frontend/.next/cache
+frontend/.next/
 
 backend/node_modules/
 backend/dist/
