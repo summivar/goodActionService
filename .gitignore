@@ -1,0 +1,9 @@
+.idea
+
+frontend/node_modules/
+frontend/.idea/
+
+backend/node_modules/
+backend/dist/
+backend/.idea/
+backend/.env
